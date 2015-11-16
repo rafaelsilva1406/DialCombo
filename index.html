@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<title>dialCombo</title>
+<body>
+<form >
+<legend>Dial</legend>
+<label for="tel">Please Enter Number</label>
+<input type="tel" id="tel" name="tel" maxlength="10" pattern="[0-9]{10}" required title="Phone Number">
+<button type="submit" onclick="return init(this)">Call Combo</button>
+</form>
+<div id="combos"></div>
+<script type="text/javascript" src="dialCombo.js"></script>
+</body>
+</html>
