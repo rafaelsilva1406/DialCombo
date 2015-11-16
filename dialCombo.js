@@ -47,6 +47,7 @@ function dialCombo(arr){
 function init(t){
 	var input = document.getElementById("tel"),//hold input locally
 		inputValArr = input.value.split("");//capture value turn to array 
+	t.disabled = true;//disable button
 	input.disabled = true;//disable input 
 	dialCombo(inputValArr);//pass array to method
 	return false;//return false
